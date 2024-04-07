@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Préstamos y Devoluciones </title>
+    <link rel="stylesheet" href="../Front/Style/devoluciones-prestamos.css">
+</head>
+<body>
+   <div class="center">
+    <main>
+        <section id="prestamos">
+            <h3>Agregar Nuevo Préstamo</h3>
+            <form id="add-loan-form">
+                <br>
+                <div class="selection">
+                    <p>Libro a prestar</p>
+                    <select name="borrower" id="">
+                        <option value="null">Ninguno</option>
+                        <option value="test">Test</option>
+                    </select>
+                </div>
+                <div class="separator"><br></div>
+                <div class="selection">
+                    <p>Prestado a</p>
+                    <select name="borrower" id="">
+                        <option value="null">Ninguno</option>
+                        <option value="test">Test</option>
+                    </select>
+                </div>
+                <div class="separator"><br></div>
+                <div class="date-form">
+                    <label for="due-date">Fecha de Devolución</label>
+                    <div><input type="date" id="due-date" name="due-date" required></div>
+                </div>
+                <div class="separator"><br></div>
+                <input type="submit" value="agregar prestamo">
+           </form>
+    </main>
+
+    </div>
+
+    
+</body>
+</html>
