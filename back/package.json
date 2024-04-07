@@ -1,0 +1,22 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "el back end de la app SGLB",
+  "main": "/Back/src/main.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon ./src/main.js"
+  },
+  "author": "Exivas",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.3.0",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0"
+  }
+}
