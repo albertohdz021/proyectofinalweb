@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro de Libros</title>
+  <link rel="stylesheet" type="text/css" href="../Front/Style/style.css"> </head>
+<body>
+  <div class="center">
+    <h1>Registro de Libros</h1>
+    <form id="book-registration-form">
+      <div class="txt_field">
+        <input type="text" id="title" required>
+        <span></span>
+        <label for="title">Titulo</label>
+      </div>
+      <div class="txt_field">
+        <input type="text" id="cover" required>
+        <span></span>
+        <label for="cover">Portada</label>
+      </div>
+      <div class="txt_field">
+        <input type="textarea" id="description" required>
+        <span></span>
+        <label for="description">Descripcion</label>
+      </div>
+      <div class="txt_field">
+        <input type="number" id="price" step="0.01" required>
+        <span></span>
+        <label for="price">Precio</label>
+      </div>
+      <div class="txt_field">
+        <input type="text" id="author" required>
+        <span></span>
+        <label for="author">Autor</label>
+      </div>
+      <div class="txt_field">
+        <input type="text" id="release-date" name="release-date" required>
+        <span></span>
+        <label for="release-date">Fecha de salida</label>
+      </div>
+      <div class="txt_field">
+        <input type="number" id="quantity" name="quantity" required>
+        <span></span>
+        <label for="quantity">Cantidad</label>
+      </div>
+      <div class="txt_field">
+        <input type="number" id="review" name="review" required>
+        <span></span>
+        <label for="review">Resena</label>
+      </div>
+      <input type="submit" value="Registrar Libro">
+    </form>
+  </div>
+  <footer>
+    <a href="./Dashboard.html"> ir atras</a>
+  </footer>
+  <script src="./func/registrationForm.js"></script>  </body>
+</html>
