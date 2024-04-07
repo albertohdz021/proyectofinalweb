@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../Front/Style/login.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Inicio de Sesión</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" id="nombre" required>
+          <span></span>
+          <label>Nombre</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" id="contrasena" required>
+          <span></span>
+          <label>Contraseña</label>
+        </div>
+        <div class="pass">Olvidaste tu contraseña?</div>
+        <button onclick="submitForm()">Iniciar</button>
+        <div class="signup_link">
+        No eres miembro? <a href="registro-usuario.html">Registrate</a>
+        </div>
+      </form>
+    </div> 
+    <script src="login.js"></script>
+  </body> 
+
+</html>
